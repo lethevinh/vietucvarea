@@ -25,7 +25,7 @@ select,
 textarea,
 body {
     font-family: 'UTM Avo', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.88em;
 }
 
 h1,
@@ -54,7 +54,8 @@ strong {
 }
 
 .red-bg {
-    background: #f2693d;
+    /*background: #f2693d;*/
+    background: red;
 }
 
 .btn-register-bg {
@@ -176,7 +177,7 @@ strong {
 .header-title::after {
     content: " ";
     width: 100%;
-    height: 2px;
+    height: 1px;
     background-color: red;
     position: absolute;
     bottom: 0;
@@ -683,10 +684,12 @@ img.lazy[data-src] {
         background-position: 0% 50%;
     }
 }
-.feature_area_check ul li{
+
+.feature_area_check ul li {
     font-size: 20px;
 }
-.feature_area_check ul li .ti-check-box{
+
+.feature_area_check ul li .ti-check-box {
     color: #eab834 !important;
 }
 
@@ -696,6 +699,29 @@ img.lazy[data-src] {
     background-color: #eab834;
 }
 
+.single_feature_111.single_feature ul li {
+    line-height: 35px;
+}
+.single_feature_222.single_feature ul li {
+    line-height: 35px;
+}
+
+.header-title_111.header-title::after {
+    width: 120%;
+    left: -10%;
+    height: 1px;
+}
+.header-title_222.header-title::after {
+    width: 80%;
+    left: 10%;
+    height: 1px;
+}
+
+.header-title_333.header-title::after {
+    width: 180%;
+    left: -40%;
+    height: 1px;
+}
 
 @media (max-width: 767px) {
     .header-title::after {
