@@ -766,8 +766,22 @@ img.lazy[data-src] {
     }
 
     .v-card {
-        background-image: none;
         padding-bottom: 5px;
+        background: #1c2534d4;
+        border-radius: 10px;
+        position: relative;
+    }
+    .v-card:after{
+        position: absolute;
+        content: " ";
+        top: 0;
+        bottom: 0;
+        border: 2px solid #acc427fa;
+        transform: rotate(-2deg);
+        border-radius: 12px;
+        width: 100%;
+        height: 100%;
+        left: -1px;
     }
     .owl-theme .owl-controls{
         width: 100%;
@@ -790,5 +804,8 @@ img.lazy[data-src] {
     .single_feature_222{
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .hero-text h2.slider-text {
+        line-height: 65px;
     }
 }
