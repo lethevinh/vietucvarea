@@ -741,6 +741,7 @@ img.lazy[data-src] {
         width: 100%;
         left: 0;
         z-index: 99;
+        display: none;
     }
     .span-list{
         min-width: fit-content;
@@ -772,6 +773,7 @@ img.lazy[data-src] {
         width: 100%;
         left: 0;
         z-index: 99;
+        display: none;
     }
     .span-list{
         min-width: fit-content;
