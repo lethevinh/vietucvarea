@@ -722,7 +722,9 @@ img.lazy[data-src] {
     left: -40%;
     height: 1px;
 }
-
+.sssss{
+    width: 75%;
+}
 @media (max-width: 767px) {
     .header-title::after {
         background-color: transparent;
@@ -734,6 +736,17 @@ img.lazy[data-src] {
 
     .u-list ul {
         padding-left: 10px;
+    }
+    .owl-theme .owl-controls{
+        width: 100%;
+        left: 0;
+        z-index: 99;
+    }
+    .span-list{
+        min-width: fit-content;
+    }
+    .sssss{
+        width: 100%;
     }
 }
 
@@ -754,5 +767,26 @@ img.lazy[data-src] {
     .v-card {
         background-image: none;
         padding-bottom: 5px;
+    }
+    .owl-theme .owl-controls{
+        width: 100%;
+        left: 0;
+        z-index: 99;
+    }
+    .span-list{
+        min-width: fit-content;
+    }
+    .sssss{
+        width: 100%;
+    }
+    .header-title_222.header-title{
+        line-height: 60px !important;
+    }
+    .single_feature_333 ul li {
+        line-height: 35px;
+    }
+    .single_feature_222{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
